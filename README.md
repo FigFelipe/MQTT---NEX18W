@@ -144,9 +144,9 @@ Utilizando o bloco de função MQTT_SUB (Instructions > FBD > MQTT_SUB), consegu
 
 A mensagem é recebida do broker no formato string (um conjunto de letras e números):
 
-> `CTU:123`
+> `"CTU":123`
 
-Utilizando o bloco de conversão **String to Double Integer**, é possível extrair somente a parte numérica da mensagem recebida:
+Utilizando o bloco de conversão **String to Double Integer**, é possível extrair somente a parte numérica da mensagem recebida, convertendo-a para o tipo inteiro:
 
 > Antes: `"CTU":123`
 > 
