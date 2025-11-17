@@ -159,6 +159,8 @@ Utilizando o bloco de conversão **String to Double Integer**, é possível extr
 > **INDX:** 6 (posição do texto no qual inicia-se somente a parte numérica)
 >
 
+![String_Double_Integer](Imagens/STRING_DI_INDEX.jpg)
+
 ## Resultado - Nexo Web integrado via MQTT
 
 ![Resultado](Imagens/MQTT_NEXO.gif)
