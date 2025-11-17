@@ -168,4 +168,4 @@ Utilizando o bloco de conversão **String to Double Integer**, é possível extr
 Observações:
 
 > 1. Note que, com o cabo de rede desconectado, o valor recebido (subscribe) do broker é diferente do valor enviado (publish), caracterizando um evento de desconexão.
-> 2. Uma vez o cabo de rede conectado, o CLP realiza a conexão automática com o broker, assim o valor recebido (subscribe) passa a ser igual ao valor enviado (publish).
+> 2. Uma vez o cabo de rede conectado, o CLP realiza a conexão automática com o broker, assim o valor recebido (subscribe) e enviado (publish) são sincronizados pelo broker externo MQTT.
