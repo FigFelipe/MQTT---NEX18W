@@ -35,7 +35,9 @@ Na tabela abaixo estão os arquivos utilizados no projeto:
 
 ## Etapa 1. Estabelecendo a conexão com o broker MQTT
 
-Com o bloco de função **'MQTT_CONN'** (Instructions > FBD > MQTT_CONN) é realizada as configurações de comunicação com o broker mqtt, conforme exemplo abaixo:
+Com o bloco de função **'MQTT_CONN'** (Instructions > FBD > MQTT_CONN) são realizadas as configurações de comunicação com o broker mqtt, conforme exemplo abaixo:
+
+![MQTT_CONN](Imagens/Ladder_MQTT_CON.jpg)
 
 > **Network:** Ethernet
 > 
@@ -71,9 +73,13 @@ Com o bloco de função **'MQTT_CONN'** (Instructions > FBD > MQTT_CONN) é real
 
 `255: A conexão foi bem-sucedida`
 
+![MQTT_CONN](Imagens/Ladder_MQTT_CON_Status.jpg)
+
 ## Etapa 2. Publicando (Publish) um tópico de mensagem no broker MQTT
 
 Através do bloco de função **MQTT_PUB** (Instructions > FBD > MQTT_PUB) é realizada a publicação de uma mensagem no broker MQTT.
+
+![MQTT_PUBLISH](Imagens/Ladder_MQTT_PUB.jpg)
 
 **Parâmetros configurados na aba COMM:**
 
@@ -114,6 +120,8 @@ Vamos publicar a mensagem com o conteúdo da variável VW200: `"CTU":VW200`
 ## Etapa 3. Inscrição (Subscribe) em um tópico de mensagem no broker MQTT
 
 Utilizando o bloco de função MQTT_SUB (Instructions > FBD > MQTT_SUB), conseguimos obter o conteúdo de um tópico específico do broker MQTT.
+
+![MQTT_SUBSCRIBE](Imagens/Ladder_MQTT_SUB.jpg)
 
 **Parâmetros configurados na aba COMM:**
 
